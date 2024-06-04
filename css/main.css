@@ -567,6 +567,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 2rem;
 }
 
+.min-h-\[100px\] {
+  min-height: 100px;
+}
+
 .w-16 {
   width: 4rem;
 }
@@ -898,16 +902,6 @@ body {
 .hover\:bg-gray-900:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-}
-
-.hover\:text-darkGrayishBlue:hover {
-  --tw-text-opacity: 1;
-  color: hsl(227 12% 61% / var(--tw-text-opacity));
-}
-
-.hover\:text-brightRed:hover {
-  --tw-text-opacity: 1;
-  color: hsl(12 88% 59% / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {
